@@ -41,7 +41,7 @@ void blinkLED(int interval) {
     ledState = !ledState;
     
     digitalWrite(LED_pin, ledState);
-    delay(interval); // Delay for the specified interval
+    delay(interval); 
   }
 }
 
